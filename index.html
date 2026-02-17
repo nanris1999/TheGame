@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class ="Boss">
+ <div>
+    <div id = "bossContainer">
+  <h1 class="box">Boss HP:<span id ="bossHp">100</span></h1>
+  </div>
+  <img id = "bossSprite" src="sprite/Boss01.png" alt="Boss">
+ </div> 
+</section>
+
+<section class="Player">
+  <div class="box">  
+   <button id="hitButton">Attack!</button>
+    <h4>
+    <img src="sprite/coin.png" alt="Gold" class ="icon">Gold: <span id ="goldScreen">0</span></h4>
+    <h4>Level: <span id ="levelScreen">1</span></h4>
+  </div>
+</section>
+
+<section class ="upgrade">
+ <div class = "box">
+  <h3>Upgrade your Damage</h3>
+  <h5>Your current Dmg: <span id ="PlayerDamageScreen">2</span><img src="sprite/damage.png" alt ="Damage" class="icon"></h5> 
+  <button id ="upgradeDamage"><span id ="costTextScreen">10</span></button>
+ </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
