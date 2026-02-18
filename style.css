@@ -43,6 +43,13 @@ body {
     object-fit: contain;
 }
 
+#critText {
+    color: #F70B0B;
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+}
+
 button {
     margin-top: 50px;
     padding: 10px 20px;
